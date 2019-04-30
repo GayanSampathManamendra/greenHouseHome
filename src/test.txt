@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-<title>Smart GreenHouse</title>
+<title>Smart Garbage COllecter</title>
 <base href="/">
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,7 +36,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 	<app-root></app-root>
 </body>
-
 <!-- js -->
 <script type="text/javascript" src="/assets/js/jquery-2.1.4.min.js"></script>
 <!-- //js -->

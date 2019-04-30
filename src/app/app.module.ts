@@ -11,6 +11,8 @@ import { PhotoGallaryComponent } from './homePageComponents/photo-gallary/photo-
 import { ContactUsComponent } from './homePageComponents/contact-us/contact-us.component';
 import { MailUsComponent } from './homePageComponents/mail-us/mail-us.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { HomePageComponent } from './home-page/home-page.component';
     PhotoGallaryComponent,
     ContactUsComponent,
     MailUsComponent,
-    HomePageComponent
+    HomePageComponent,
+    SignUpComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
