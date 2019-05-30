@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .background {
+    background-color: rgb(83, 82, 82);
+  } 
+  .login {
+    width: 500px;
+    height: 550px;
+    border: 1px solid rgb(252, 250, 250);
+    background: url(http://68.media.tumblr.com/2b27908fac782ca54cc2b3aff6862423/tumblr_mra3owkIhC1ro855no1_500.gif) center center no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+    border-radius: 3px;
+    
+  }
+  .login .form {
+    width: 100%;
+    height: 100%;
+    padding: 15px 20px;;
+  }
+  .login .form h2 {
+    color: #FFF;
+    text-align: center;
+    font-weight: normal;
+    font-size: 48px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  .login .form input {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(255,255,255,.5);
+    border: 1px solid rgba(255,255,255,.1);
+    padding: 0 15px;
+    color: #FFF;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+  .login .form input:focus {
+    border: 1px solid rgba(255,255,255,.8);
+    outline: none;
+  }
+  ::-webkit-input-placeholder {
+      color: #DDD;
+  }
+  .login .form input.submit {
+    background: rgba(255,255,255,.9);
+    color: #444;
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: bold;
+  }
