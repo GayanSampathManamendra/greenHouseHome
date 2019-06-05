@@ -1,0 +1,147 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<title>Smart Garbage COllecter</title>
+<base href="/">
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Topiary Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- gallery -->
+<link rel="stylesheet" href="/assets/css/lightGallery.css" type="text/css" media="all" />
+<!-- //gallery -->
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css" media="screen" property="" />
+
+<link href="/assets/css/style7.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome-icons -->
+<link href="/assets/css/font-awesome.css" rel="stylesheet"> 
+<!-- //sigin up styles -->
+
+
+
+</head>
+
+<body>
+	<app-root></app-root>
+</body>
+<!-- js -->
+<script type="text/javascript" src="/assets/js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- /nav -->
+<script src="/assets/js/modernizr-2.6.2.min.js"></script>
+<script src="/assets/js/classie.js"></script>
+<script src="/assets/js/demo1.js"></script>
+<!-- //nav -->
+<script src="/assets/js/jquery.vide.min.js"></script>
+<!-- for bootstrap working -->
+<script src="/assets/js/responsiveslides.min.js"></script>
+			<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider4").responsiveSlides({
+							auto: true,
+							pager:false,
+							nav:true,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+					
+						});
+			</script>
+<!-- start-smooth-scrolling -->
+	<script src="/assets/js/lightGallery.js"></script>
+	<script>
+    	 $(document).ready(function() {
+			$("#lightGallery").lightGallery({
+				mode:"fade",
+				speed:800,
+				caption:true,
+				desc:true,
+				mobileSrc:true
+			});
+		});
+    </script>
+<!-- //gallery -->
+	<!-- flexSlider -->
+					<script defer src="/assets/js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+				<!-- //flexSlider -->
+<!-- //for bootstrap working -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="/assets/js/move-top.js"></script>
+<script type="text/javascript" src="/assets/js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+
+<script type="text/javascript" src="/assets/js/bootstrap-3.1.1.min.js"></script>
+
+</html>
