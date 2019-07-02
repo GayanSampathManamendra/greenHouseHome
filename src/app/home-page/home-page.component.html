@@ -24,9 +24,9 @@
         <div class="login" >
             <div class="form">
                 <h2>Welcome</h2>
-                <input type="text" placeholder="Username">
-                <input type="password" placeholder="Password">
-                <input type="submit" value="Sign In" class="submit">
+                <input type="text" placeholder="Username" #sUsername>
+                <input type="password" placeholder="Password" #sPassword>
+                <input value="Sign In" class="submit" (click)="SignIn(sUsername.value, sPassword.value)">
             </div>
         </div>
     </div>
@@ -34,10 +34,10 @@
         <div class="login" >
             <div class="form">
                 <h2>Welcome</h2>
-                <input type="text" placeholder="Username">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <input type="submit" value="Sign Up" class="submit">
+                <input type="text" placeholder="Username" #lUsername>
+                <input type="email" placeholder="Email" #lEmail>
+                <input type="password" placeholder="Password" #lPassword>
+                <input type="submit" value="Sign Up" class="submit" (click)="authService.SignUp(lEmail.value, lPassword.value)">
             </div>
         </div>
     </div>

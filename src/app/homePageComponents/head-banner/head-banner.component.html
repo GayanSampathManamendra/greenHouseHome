@@ -8,7 +8,7 @@
 									<h1><a href="../assets/index.html">GreenHouse Name<span>Smart Green House</span></a></h1>
 								</div>
 								<div class="w3_menu">
-								<div class="agileits_w3layouts_top_info_sub">
+								<div class="agileits_w3layouts_top_info_sub" *ngIf="!isLoggedIn()">
 					
 									<ul class="top_agile_info_ad">
 										<li>
@@ -27,6 +27,17 @@
 										</li>
 									</ul>
 
+								</div>
+								<div class="agileits_w3layouts_top_info_sub" *ngIf="isLoggedIn()">
+									<ul class="top_agile_info_ad">
+										<li>
+											<div class="header_contact_details_agile">
+												<div class="w3l_header_contact_details_agile">
+														<a (click)="authService.SignOut()"><h3><b>Logout</b></h3></a>
+												</div>
+											</div>
+										</li>
+									</ul>
 								</div>
 								
 									<div class="overlay overlay-contentpush">
