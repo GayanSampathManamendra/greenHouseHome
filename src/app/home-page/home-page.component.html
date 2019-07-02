@@ -26,7 +26,9 @@
                 <h2>Welcome</h2>
                 <input type="text" placeholder="Username" #sUsername>
                 <input type="password" placeholder="Password" #sPassword>
-                <input value="Sign In" class="submit" (click)="SignIn(sUsername.value, sPassword.value)">
+                <input value="Sign In" class="submit" (click)="SignIn(sUsername.value, sPassword.value)" data-dismiss="myModal1" style="cursor: pointer; text-align: center;">
+                <!-- <input value="Sign In" class="submit" data-dismiss="myModal1"> -->
+
             </div>
         </div>
     </div>
@@ -37,7 +39,7 @@
                 <input type="text" placeholder="Username" #lUsername>
                 <input type="email" placeholder="Email" #lEmail>
                 <input type="password" placeholder="Password" #lPassword>
-                <input type="submit" value="Sign Up" class="submit" (click)="authService.SignUp(lEmail.value, lPassword.value)">
+                <input type="submit" value="Sign Up" class="submit" (click)="authService.SignUp(lEmail.value, lPassword.value)" data-dismiss="myModal2" style="cursor: pointer; text-align: center;">
             </div>
         </div>
     </div>
